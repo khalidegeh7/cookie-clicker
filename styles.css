@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(214, 41%, 78%);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: hsl(35, 54%, 71%);
+    
+  }
+  
+  #cookie {
+    width: 200px;
+    border-radius: 10px;
+  }
+
+  .controls{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .counter-class{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  
